@@ -20,3 +20,15 @@ Repositório para o Projeto 1 do curso Code Education de GIT
    * git remote add origin git@github.com:thiagofdso/aulagit.git   
 4. Enviei o arquivo para o repositório
    * git push -u origin master
+
+## Passo a passo para criação de tags (releases)
+1. Criando primeira tag
+   * git tag 0.1.0
+   * git push origin master --tags
+2. Modificando e criando segunda tag
+   * notepad README.md
+   * git add README.md
+   * git commit -m "Adicionando passo a passo de tags"
+   * git push -u origin master
+   * git tag 0.1.1
+   * git push origin master --tags
